@@ -1,0 +1,6 @@
+framework module iOSAIChatBotSDK {
+  umbrella header "iOSAIChatBotSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

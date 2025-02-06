@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  iOSAIChatBotSDK
-//
-//  Created by ZhangYe on 02/05/2025.
-//  Copyright (c) 2025 ZhangYe. All rights reserved.
-//
 
 import UIKit
 
@@ -12,7 +5,6 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

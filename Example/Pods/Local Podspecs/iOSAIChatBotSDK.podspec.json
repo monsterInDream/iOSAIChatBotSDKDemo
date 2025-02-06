@@ -1,0 +1,22 @@
+{
+  "name": "iOSAIChatBotSDK",
+  "version": "0.1.0",
+  "summary": "A short description of iOSAIChatBotSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ZhangYe/iOSAIChatBotSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZhangYe": "728815221@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ZhangYe/iOSAIChatBotSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "iOSAIChatBotSDK/Classes/**/*"
+}
