@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOSAIChatBotSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'iOSAIChatBotSDK is a chatbot SDK for iOS applications, providing AI-driven conversation capabilities.'
 
 # This description is used to generate tags and improve search results.
