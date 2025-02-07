@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		12EB820014E4C3335447152B /* Pods_iOSAIChatBotSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646D44552AD0E86FD5FF1A21 /* Pods_iOSAIChatBotSDK_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		760CF4A4E82F698F01F0B801 /* Pods_iOSAIChatBotSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD6D57DC9E22D5AAC3D4E12 /* Pods_iOSAIChatBotSDK_Example.framework */; };
 		A95666CD2D536E3700C8D8D3 /* InitializationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95666CC2D536E3700C8D8D3 /* InitializationManager.swift */; };
+		A9648D292D559268000C5E6B /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9648D282D559268000C5E6B /* RootViewController.xib */; };
+		A9648D2A2D559268000C5E6B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9648D272D559268000C5E6B /* RootViewController.swift */; };
+		A9648D2C2D5592E3000C5E6B /*  MyChatAIBotSDKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9648D2B2D5592E3000C5E6B /*  MyChatAIBotSDKManager.swift */; };
 		A97CF3912D54B6F1007037BA /* ChatViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97CF38F2D54B6F1007037BA /* ChatViewcontroller.swift */; };
 		A97CF3922D54B6F1007037BA /* ChatViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97CF3902D54B6F1007037BA /* ChatViewcontroller.xib */; };
 /* End PBXBuildFile section */
@@ -38,8 +39,6 @@
 		607FACD01AFB9204008FA782 /* iOSAIChatBotSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAIChatBotSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* iOSAIChatBotSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAIChatBotSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +49,9 @@
 		9A0549C8800398FA5A3F382D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A26C5AB8755DBCA091B7D35A /* Pods-iOSAIChatBotSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAIChatBotSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-iOSAIChatBotSDK_Example/Pods-iOSAIChatBotSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A95666CC2D536E3700C8D8D3 /* InitializationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationManager.swift; sourceTree = "<group>"; };
+		A9648D272D559268000C5E6B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		A9648D282D559268000C5E6B /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		A9648D2B2D5592E3000C5E6B /*  MyChatAIBotSDKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MyChatAIBotSDKManager.swift"; sourceTree = "<group>"; };
 		A97CF38F2D54B6F1007037BA /* ChatViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewcontroller.swift; sourceTree = "<group>"; };
 		A97CF3902D54B6F1007037BA /* ChatViewcontroller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewcontroller.xib; sourceTree = "<group>"; };
 		F89CD82AE6A21DF0F245DB65 /* iOSAIChatBotSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOSAIChatBotSDK.podspec; path = ../iOSAIChatBotSDK.podspec; sourceTree = "<group>"; };
@@ -120,10 +122,10 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				A9648D272D559268000C5E6B /* RootViewController.swift */,
+				A9648D282D559268000C5E6B /* RootViewController.xib */,
 				A97CF38E2D54B6CB007037BA /* Chat */,
 				A95666CB2D536DFD00C8D8D3 /* InitializationManager */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -178,6 +180,7 @@
 		A97CF38E2D54B6CB007037BA /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				A9648D2B2D5592E3000C5E6B /*  MyChatAIBotSDKManager.swift */,
 				A97CF38F2D54B6F1007037BA /* ChatViewcontroller.swift */,
 				A97CF3902D54B6F1007037BA /* ChatViewcontroller.xib */,
 			);
@@ -274,9 +277,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				A97CF3922D54B6F1007037BA /* ChatViewcontroller.xib in Resources */,
+				A9648D292D559268000C5E6B /* RootViewController.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,9 +381,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				A95666CD2D536E3700C8D8D3 /* InitializationManager.swift in Sources */,
 				A97CF3912D54B6F1007037BA /* ChatViewcontroller.swift in Sources */,
+				A9648D2A2D559268000C5E6B /* RootViewController.swift in Sources */,
+				A9648D2C2D5592E3000C5E6B /*  MyChatAIBotSDKManager.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,14 +408,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
