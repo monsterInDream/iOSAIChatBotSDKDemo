@@ -7,8 +7,8 @@ public class ChatViewcontroller: UIViewController {
     
     public var clickTestButtonBlock: (()->())?
     
-    var myParamKey1 = ""
-    var myParamKey2 = ""
+    public var myParamKey1 = ""
+    public var myParamKey2 = ""
     
     public init(param1: String, param2: String){
         self.myParamKey1 = param1

@@ -1,14 +1,14 @@
 
 import UIKit
 
-class ChatViewcontroller: UIViewController {
+public class ChatViewcontroller: UIViewController {
 
     @IBOutlet weak var myAllContentTextLabel: UILabel!
     
     public var clickTestButtonBlock: (()->())?
     
-    var myParamKey1 = ""
-    var myParamKey2 = ""
+    public var myParamKey1 = ""
+    public var myParamKey2 = ""
     
     public init(param1: String, param2: String){
         self.myParamKey1 = param1
@@ -21,8 +21,7 @@ class ChatViewcontroller: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         initUI()
     }
